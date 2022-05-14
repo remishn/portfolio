@@ -1,0 +1,15 @@
+:root {
+    color: aqua;
+    color: beige;
+    color: aquamarine;
+}
+
+section {
+    padding: 60px;
+    display: block;
+}
+.accomplishment {
+    margin: 20px;
+    flex: 1;
+
+}
