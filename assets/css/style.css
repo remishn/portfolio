@@ -1,15 +1,39 @@
-:root {
-    color: aqua;
-    color: beige;
-    color: aquamarine;
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+
 }
 
-section {
-    padding: 60px;
-    display: block;
+.intro p {
+    line-height: 1.7;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.accomplishments {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .accomplishment {
     margin: 20px;
     flex: 1;
 
+}
+.accomplishment img {
+    width: 100%;
 }
